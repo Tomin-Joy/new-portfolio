@@ -13,7 +13,9 @@
     <title>Tomin Joy | Portfolio</title>
     <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/67215154?v=4" type="image/x-icon">
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="css/typrwrite.css">
     <script src="./js/login.js"></script>
+    <script src="./js/typewritter.js"></script>
 </head>
 
 <body onload="spanner()">
@@ -22,21 +24,27 @@
         <div class="signin">
             <div class="content">
                 <h2>Sign In</h2>
-                <div class="form">
+                <form class="form" id="nForm">
                     <div class="inputBox">
-                        <input type="text" required>
+                        <input type="text" required id= "nField">
                         <i>Your name</i>
                     </div>
                     <div class="links">
-                        <a href="#">Login as Guest</a>
+                        <a onclick="loginGuest()">Login as Guest</a>
                     </div>
                     <div class="inputBox">
-                        <input type="button" value="Login" onclick="loginUsr()">
+                        <input type="submit" value="Login">
                     </div>
-                </div>
+                </>
             </div>
         </div>
     </section>
+    <section class="t_s" id="t_s">
+        <div class="t_wrapper">
+            <h2 class="t_t" id="t_t"></h2>
+        </div>
+    </section>
+
 </body>
 
 </html>

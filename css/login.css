@@ -144,13 +144,14 @@ body
 {
 	color: #fff;
 	text-decoration: none;
+	cursor: pointer;
 }
 .signin .content .form .links a:nth-child(1)
 {
 	color: #0f0;
 	font-weight: 600;
 }
-.signin .content .form .inputBox input[type="button"]
+.signin .content .form .inputBox input[type="submit"]
 {
 	padding: 10px;
 	background: #0f0;
@@ -160,7 +161,7 @@ body
 	letter-spacing: 0.05em;
 	cursor: pointer;
 }
-input[type="button"]:active
+input[type="submit"]:active
 {
 	opacity: 0.6;
 }
