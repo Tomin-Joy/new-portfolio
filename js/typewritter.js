@@ -10,7 +10,7 @@ function typeWriter(i, text) {
         t_t.innerHTML += text.charAt(i);
       }
       i++;
-      setTimeout(() => { typeWriter(i, text) }, 0);
+      setTimeout(() => { typeWriter(i, text) }, 50);
     }
     else {
         
