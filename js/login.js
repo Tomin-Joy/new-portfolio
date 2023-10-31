@@ -14,6 +14,7 @@ function spanner() {
     and fortified adventure through the digital landscape.`;
     login_section.style.display = "none";
     t_s.style.display = "flex";
+    m_s.style.display="block";
     typeWriter(0, txt);
   };
 }
@@ -26,5 +27,6 @@ function loginGuest() {
     and fortified adventure through the digital landscape.`;
     login_section.style.display = "none";
     t_s.style.display = "flex";
+    m_s.style.display="block";
     typeWriter(0, txt);
 }
