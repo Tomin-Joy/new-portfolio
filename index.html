@@ -34,9 +34,9 @@
         <div class="signin">
             <div class="content">
                 <h2>Sign In</h2>
-                <form class="form" id="nForm">
+                <form class="form" id="nForm" name="nForm">
                     <div class="inputBox">
-                        <input type="text" required id= "nField">
+                        <input type="text" required id= "nField" name="nField">
                         <i>Your name</i>
                     </div>
                     <div class="links">
@@ -421,26 +421,26 @@
                             </h5>
                           </div>
                           <div>
-                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <form id="formGIT" name="formGIT" role="form" class="php-email-form">
                               <div class="row">
                                 <div class="col-md-12 mb-3">
                                   <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" >
                                   </div>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                   <div class="form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" >
                                   </div>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                   <div class="form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" >
                                   </div>
                                 </div>
                                 <div class="col-md-12">
                                   <div class="form-group">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" ></textarea>
                                   </div>
                                 </div>
                                 <div class="col-md-12 text-center my-3">
